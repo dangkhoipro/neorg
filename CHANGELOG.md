@@ -1,5 +1,34 @@
 # Changelog
 
+## [7.1.0](https://github.com/nvim-neorg/neorg/compare/v7.0.0...v7.1.0) (2024-01-28)
+
+
+### Features
+
+* **export.markdown:** option to export latex `embed` tags ([0abe7b7](https://github.com/nvim-neorg/neorg/commit/0abe7b737d35f2abd082bc6f694cf5a9fc166fb7))
+* **keybinds:** add `opts` arg to `remap(_event)` ([27af839](https://github.com/nvim-neorg/neorg/commit/27af839eb6833f82765bc3066ab7e9b437233dd2))
+* **summary:** reimplement nested categories ([#1274](https://github.com/nvim-neorg/neorg/issues/1274)) ([6202285](https://github.com/nvim-neorg/neorg/commit/6202285214e70efe0d861c5a4969f8ee817bc985))
+
+
+### Bug Fixes
+
+* **ci:** fix abs path to libs in luarc ([#1267](https://github.com/nvim-neorg/neorg/issues/1267)) ([0edde97](https://github.com/nvim-neorg/neorg/commit/0edde97b51a5247bd4db351a38d5f36131b642f7))
+* **ci:** wrong version on typecheck ([fb23d2e](https://github.com/nvim-neorg/neorg/commit/fb23d2e78bf6ee601ed1de2a9ded23d6201f7506))
+* **config:** add support for bsd operating systems ([#1281](https://github.com/nvim-neorg/neorg/issues/1281)) ([2bdb89c](https://github.com/nvim-neorg/neorg/commit/2bdb89c388d5c9e1956e7aab949ffb003e9a8ea5))
+* **core.keybinds:** type errors with events ([dbe2841](https://github.com/nvim-neorg/neorg/commit/dbe28417222e044bcbec5bb016f0d604004bcbb3))
+* **core.mode:** type errors with events ([fb2c561](https://github.com/nvim-neorg/neorg/commit/fb2c561f0080b621fd2853a3190d48f885a13b6d))
+* **core.neorgcmd:** type errors with events ([1ab6236](https://github.com/nvim-neorg/neorg/commit/1ab6236a954cf2de6fe4b736a66ca5a17d85a6ff))
+* **core.promo:** type errors with events ([0016fdd](https://github.com/nvim-neorg/neorg/commit/0016fdd8f2349dec1c1865f3412dbd08232b1bbd))
+* **core.syntax:** remove deprecated functions, fix type errors in the code ([221bb2e](https://github.com/nvim-neorg/neorg/commit/221bb2eb10c8d7b7f62537393a9dce385d36b638))
+* **docgen:** make the wiki work again ([d44dd38](https://github.com/nvim-neorg/neorg/commit/d44dd387d8f553791671f52f691be7580b98c6db))
+* **export.markdown:** fix error on unexported verbatim tags without parameters ([#1280](https://github.com/nvim-neorg/neorg/issues/1280)) ([e6d89d3](https://github.com/nvim-neorg/neorg/commit/e6d89d333aff65a771a98955fac9fc178345c01c))
+* **export.markdown:** fix html `embed` tags not being exported ([5b2022c](https://github.com/nvim-neorg/neorg/commit/5b2022caaf689dc1c78b8959a2547249f8b05769))
+* **export.markdown:** fix markdown `embed` tags not being exported ([f3d4230](https://github.com/nvim-neorg/neorg/commit/f3d4230d37da5d727d3ae13e1bada30e37b433ad))
+* **export.markdown:** fix the first `tag` always being exported by default ([bda456d](https://github.com/nvim-neorg/neorg/commit/bda456d6685545893d446e841f2ee41633b6548a))
+* **export.markdown:** use proper amount of parameters ([b0b5a43](https://github.com/nvim-neorg/neorg/commit/b0b5a4370228f27bd98516b9061bd6c87386c8f3))
+* **integrations.truezen:** use `setup()` instead of `load()` ([26cfe0e](https://github.com/nvim-neorg/neorg/commit/26cfe0e155c35695d2d4af7d938a9ffd160b8797))
+* **integrations.truezen:** use `setup()` instead of `load()` ([3506236](https://github.com/nvim-neorg/neorg/commit/3506236e292de6d7989b6d6541ed5fcfa1e73bab))
+
 ## [7.0.0](https://github.com/nvim-neorg/neorg/compare/v6.2.0...v7.0.0) (2023-12-28)
 
 
